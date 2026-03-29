@@ -1,0 +1,16 @@
+{
+  "name": "invitation-h5-vercel",
+  "version": "1.0.0",
+  "description": "H5邀请函 - Vercel部署版本",
+  "scripts": {
+    "dev": "serve public",
+    "build": "echo 'Static site - no build needed'",
+    "start": "serve public"
+  },
+  "dependencies": {
+    "serve": "11.3.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
