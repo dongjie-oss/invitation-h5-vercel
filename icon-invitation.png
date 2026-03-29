@@ -1,0 +1,23 @@
+# 邀请函应用图标 - 144x144 PNG
+# 由于无法直接生成图片文件，我提供图标设计说明：
+
+# 图标1: 邀请函主题
+# 尺寸: 144x144像素
+# 设计: 
+# - 背景: 渐变紫色 (#667eea → #764ba2)
+# - 中心: 💌 信封emoji (60px大小)
+# - 底部: 小字"邀请函" (12px字体)
+# - 圆角: 20px
+# - 阴影: 轻微投影效果
+
+# 你可以使用以下在线工具生成:
+# 1. Canva: https://www.canva.com/
+# 2. Figma: https://www.figma.com/
+# 3. Photoshop或其他设计软件
+
+# 或者使用代码生成 (需要PIL库):
+# from PIL import Image, ImageDraw, ImageFont
+# img = Image.new('RGBA', (144, 144), (102, 126, 234, 255))
+# draw = ImageDraw.Draw(img)
+# # 添加文字和图标...
+# img.save('icon-invitation.png')
